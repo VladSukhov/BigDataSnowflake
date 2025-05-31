@@ -1,0 +1,11 @@
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data1.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data2.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data3.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data4.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data5.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data6.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data7.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data8.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data9.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data10.csv' DELIMITER ',' CSV HEADER;
+COPY raw_data FROM '/docker-entrypoint-initdb.d/data/mock_data.csv' DELIMITER ',' CSV HEADER;
